@@ -192,9 +192,9 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         s = sys.argv[1]
         if s.find('/t/')!=-1:
-            download_group(sys.argv[2])
+            download_group(s)
         else:
-            download_one_page(sys.argv[1])
+            download_one_page(s)
     else:
         download_all()
 
