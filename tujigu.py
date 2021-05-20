@@ -191,7 +191,7 @@ if __name__ == "__main__":
     # 'https://www.tujigu.com/a/8396/'
     if len(sys.argv) > 1:
         s = sys.argv[1]
-        if s.find('\t\')!=-1:
+        if s.find('/t/')!=-1:
             download_group(sys.argv[2])
         else:
             download_one_page(sys.argv[1])
